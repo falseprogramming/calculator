@@ -29,7 +29,7 @@ switch (true) {
 	break;
 	case ($inputOne || $inputOne == 0 and $inputTwo || $inputTwo == 0 and $calcMethod == 'multiply'):
 	echo '<b>Korrutasid ja vastus on: </b>';
-	echo  Math::timesNumbers($inputOne,$inputTwo);
+	echo  Math::timeNumbers($inputOne,$inputTwo);
 	echo $back;
 	break;
 	case ($inputOne || $inputOne == 0 and $inputTwo || $inputTwo == 0 and $calcMethod == 'divide'):
